@@ -1,0 +1,14 @@
+<odoo>
+    <!-- Define the action for the patient view -->
+    <record id="action_hospital_patient" model="ir.actions.act_window">
+        <field name="name">Hospital Patient</field>
+        <field name="res_model">hospital.patient</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+    </record>
+
+    <!-- Define the menus -->
+    <menuitem id="menu_hospital_root" name="HMS"/>
+    <menuitem id="menu_front" name="Front Desk" parent="menu_hospital_root"/>
+    <menuitem id="menu_patient" name="Patient" parent="menu_front" action="action_hospital_patient"/>
+</odoo>
