@@ -1,0 +1,17 @@
+<odoo>
+    <record id="view_employee_medical_form" model="ir.ui.view">
+        <field name="name">employee.medical.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='emergency']" position="after">
+                <group string="Medical Information" groups="hr.group_hr_user">
+                    <field name="blood_type"/>
+                    <field name="medical_status"/>
+                    <field name="allergies"/>
+                    <field name="medications"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

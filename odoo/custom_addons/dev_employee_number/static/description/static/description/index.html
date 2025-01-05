@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevIntelle</title>
+    <meta name="description" content="devintelle">
+    <meta name="keywords" content="devintelle">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha384-...">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- into and description -->
+        <section id="dev_intro" class="mt-3">
+            <div class="product-card shadow-lg p-3 m-2" style="border-radius: 14px;">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="images/logo.png" class="ml-2 mb-4" style="width: 250px;"
+                            alt="Devintelle Consulting Services Pvt Ltd">
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <span class="btn-lg mb-1 btn-block text-center"
+                            style="background-color: #26a3ae;color: white; font-weight: 600;"><i
+                                class="fa fa-check-square mr-2"></i>Community</span>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <span class="btn-lg mb-1 btn-block text-center"
+                            style="background-color: #26a3ae;color: white;font-weight: 600;"><i
+                                class="fa fa-check-square mr-2"></i>Enterprise</span>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <span class="btn-lg mb-1 btn-block text-center"
+                            style="background-color: #26a3ae;color: white;font-weight: 600;"> <i
+                                class="fa fa-check-square mr-2"></i>odoo.sh</span>
+                    </div>
+                </div>
+                <!--Heading-->
+                <div class="row">
+                    <div class="col text-center">
+                        <p class="mt-3 mb-1" style="color: #26a3ae; font-weight: 600; font-size: 30px;">Undelivered Sale Orders</p>
+                        <p class="mt-3 mb-1" style="color: #26a3ae; font-weight: 600; font-size: 25px;">Separate Menu</p>
+                        <p class="mt-3 mb-1" style="color: #26a3ae; font-weight: 600; font-size: 20px;">Various Filters</p>
+                        <img src="images/seprator.png" alt="seprator" width=250 />
+                        <p style="font-size: large; letter-spacing:0.5px; color: black; margin-top: 10px;">
+                            This Odoo application will display a dedicated menu where you can conveniently access a
+                            list of undelivered orders. Undelivered orders are those that have been created
+                            but have not yet been delivered.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <div class="mt-3 mb-4">
+                        <a class="btn btn-primary"
+                            style="width: auto;font-weight: bold;font-size: 21px;background-color: #26a3ae;box-shadow: 0px 0px 6px 3px #d7e5f1;padding-top: 12px;padding-bottom: 12px;padding-left: 60px;padding-right: 60px;border-radius: 28px; color: white; border: none;"
+                            href="https://apps.odoo.com/apps/modules/browse?author=DevIntelle%20Consulting%20Service%20Pvt.Ltd"
+                            target="_blank">More Apps
+                        </a>
+                        <a class="btn btn-primary"
+                            style="width: auto;font-weight: bold;font-size: 21px;background-color: #26a3ae;box-shadow: 0px 0px 6px 3px #d7e5f1;padding-top: 12px;padding-bottom: 12px;padding-left: 50px;padding-right: 50px;border-radius: 28px; color: white; border: none;"
+                            href="mailto:odoo@devintellecs.com?Subject=Demo Request For The Odoo App" target="_blank">Ask for Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features -->
+        <section id="dev_features" class="mt-5">
+            <div class="text-center">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">FEATURES</p>
+                <img src="images/seprator.png" alt="seprator" width=150 />
+            </div>
+            <ul class="list-unstyled" style="font-weight: 600;font-size:18px; color:#212121; word-spacing: 0.5px;">
+                <li class="shadow-lg rounded"
+                    style="padding:20px; margin-bottom:20px; display:block; border-radius:0.25rem">
+                    <img src="images/arrow.png" alt="arrow" style="width:15px;margin-right:10px" />
+                    <span> A separate menu, labeled 'Undelivered Order,' will display orders that have not yet been delivered.</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- tablist -->
+        <section id="dev_tab" class="mt-5">
+            <div class="">
+                <ul class="nav nav-tabs justify-content-center" role="tablist"
+                    style="padding-bottom:10px; background-color:transparent">
+                    <li class="nav-item rounded"
+                        style="background-color:#26a3ae; color:#fff; border-radius:0.25rem !important; font-weight:600; font-size:14px; margin:2px 2px">
+                        <span class="nav-link active rounded" data-toggle="tab" href="#Configurations"
+                            style="border:1px solid #26a3ae; padding:10px 20px; border-top-left-radius:0px; border-top-right-radius:0px">Setup</span>
+                    </li>
+                    <li class="nav-item rounded"
+                        style="background-color:#26a3ae; color:#fff; border-radius:0.25rem !important; font-weight:600; font-size:14px; margin:2px 2px">
+                        <span class="nav-link rounded" data-toggle="tab" href="#Release"
+                            style="border:1px solid #26a3ae; padding:10px 20px; border-top-left-radius:0px; border-top-right-radius:0px">Releases</span>
+                    </li>
+                    <li class="nav-item rounded"
+                        style="background-color:#26a3ae; color:#fff; border-radius:0.25rem !important; font-weight:600; font-size:14px; margin:2px 2px">
+                        <span class="nav-link rounded" data-toggle="tab" href="#FAQ"
+                            style="border:1px solid #26a3ae; padding:10px 20px; border-top-left-radius:0px; border-top-right-radius:0px">FAQs</span>
+                    </li>
+                    <li class="nav-item rounded"
+                        style="background-color:#26a3ae; color:#fff; border-radius:0.25rem !important; font-weight:600; font-size:14px; margin:2px 2px">
+                        <span class="nav-link rounded" data-toggle="tab" href="#Support"
+                            style="border:1px solid #26a3ae; padding:10px 20px; border-top-left-radius:0px; border-top-right-radius:0px">Support</span>
+                    </li>
+                </ul>
+                <!--ScreenShots-->
+                <div class="tab-content" style="padding-top:30px; background-color:transparent; padding-bottom:30px">
+                    <!-- tab 2 -->
+                    <div id="Configurations" class="tab-pane active">
+                        <section id="sh_configuration">
+                            <div class="container">
+                                <div class="text-center mb-4">
+                                    <p style="color:#12757e; font-size:30px; margin:auto; letter-spacing:.5px">
+                                        Create Purchase Order
+                                    </p>
+                                    <p style="font-size:18px; margin:auto; margin-bottom:20px; max-width: 80%;"></p>
+                                    <div class="col-md-12">
+                                        <img class="img-responsive rounded shadow-lg"
+                                            src="screens/" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="text-center mb-4">
+                                    <p style="color:#12757e; font-size:30px; margin:auto; letter-spacing:.5px">
+                                        Split Purchase Order
+                                    </p>
+                                    <p style="font-size:18px; margin:auto; margin-bottom:20px; max-width: 80%;"></p>
+                                    <div class="col-md-12">
+                                        <img class="img-responsive rounded shadow-lg"
+                                            src="screens/dev_sale_undelivered_orders2.png" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="text-center mb-4">
+                                    <p style="color:#12757e; font-size:30px; margin:auto; letter-spacing:.5px">
+                                        Confirmation Message For Slipt Purchase Order
+                                    </p>
+                                    <p style="font-size:18px; margin:auto; margin-bottom:20px; max-width: 80%;"></p>
+                                    <div class="col-md-12">
+                                        <img class="img-responsive rounded shadow-lg"
+                                            src="screens/dev_sale_undelivered_orders2.png" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="text-center mb-4">
+                                    <p style="color:#12757e; font-size:30px; margin:auto; letter-spacing:.5px">
+                                        New Split Purchase Order
+                                    </p>
+                                    <p style="font-size:18px; margin:auto; margin-bottom:20px; max-width: 80%;"></p>
+                                    <div class="col-md-12">
+                                        <img class="img-responsive rounded shadow-lg"
+                                            src="screens/dev_sale_undelivered_orders2.png" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="text-center mb-4">
+                                    <p style="color:#12757e; font-size:30px; margin:auto; letter-spacing:.5px">
+                                        Old Purchase Order
+                                    </p>
+                                    <p style="font-size:18px; margin:auto; margin-bottom:20px; max-width: 80%;"></p>
+                                    <div class="col-md-12">
+                                        <img class="img-responsive rounded shadow-lg"
+                                            src="screens/dev_sale_undelivered_orders2.png" style="width:100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- tab 2 -->
+                    <!-- tab 3 -->
+                    <div id="Release" class="tab-pane fade container">
+                        <div class="sh_content shadow-lg rounded bg-white" style="padding:20px; margin-bottom:15px">
+                            <h4
+                                style="font-size:16px; margin:0; color:#212121; text-decoration:none; font-weight:600; letter-spacing:1px; display:block">
+                                <span class="fa fa-hand-o-right"
+                                    style="color:#26a3ae; font-weight:600; font-size:18px; padding-right:10px"></span>
+                                <span>Version 1.0</span> | <span style="color:#26a3ae">Released on : 3<sup>rd</sup>
+                                    October 2023</span>
+                            </h4>
+                            <div style="font-size:16px; padding-left:32px; color:#555; margin:0; padding-top:15px">
+                                <div style="font-weight:normal" class="d-flex align-items-center">
+                                    <img src="images/arrow.png" alt="arrow" style="width:15px;margin-right:10px">
+                                    <span style="vertical-align:middle; font-size:17px; font-weight: 600; ">Initial
+                                        Release.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab 3 -->
+                    <!-- tab 4 -->
+                    <div id="FAQ" class="tab-pane fade container mb-3">
+                        <ul class="list-unstyled">
+                            <li class="shadow-lg rounded"
+                                style="padding:20px; margin-bottom:20px; font-size:20px; color:#12757e; display:block; border-radius:0.25rem">
+                                <img src="images/arrow.png" alt="arrow" style="width:15px;" />
+                                <span>
+                                    <b>Is this app compatible with Odoo Enterprise?</b>
+                                </span>
+                                <br>
+                                <ul style="color: black; font-size: 16px;">
+                                    <li>
+                                        <span class="pl-4">Yes, our app works with Odoo Enterprise as well as
+                                            Community.</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow-lg rounded"
+                                style="padding:20px; margin-bottom:20px; font-size:20px; color:#12757e; display:block; border-radius:0.25rem">
+                                <img src="images/arrow.png" alt="arrow" style="width:15px;" />
+                                <span>
+                                    <b>If need of customization in this app, How can i contact ?</b>
+                                </span>
+                                <br>
+                                <ul style="color: black; font-size: 16px;">
+                                    <li>
+                                        <span class="pl-4">Please contact us on <b>odoo@devintellecs.com</b></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow-lg rounded"
+                                style="padding:20px; margin-bottom:20px; font-size:20px; color:#12757e; display:block; border-radius:0.25rem">
+                                <img src="images/arrow.png" alt="arrow" style="width:15px;" />
+                                <span>
+                                    <b>Do i get free support?</b>
+                                </span>
+                                <br>
+                                <ul style="color: black; font-size: 16px;">
+                                    <li>
+                                        <span class="pl-4">Yes, you will get free support for 90days.</b></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow-lg rounded"
+                                style="padding:20px; margin-bottom:20px; font-size:20px; color:#12757e; display:block; border-radius:0.25rem">
+                                <img src="images/arrow.png" alt="arrow" style="width:15px;" />
+                                <span>
+                                    <b>Do i get free updates?</b>
+                                </span>
+                                <br>
+                                <ul style="color: black; font-size: 16px;">
+                                    <li>
+                                        <span class="pl-4">Yes, you will get free updates for lifetime.</b></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="shadow-lg rounded"
+                                style="padding:20px; margin-bottom:20px; font-size:20px; color:#12757e; display:block; border-radius:0.25rem">
+                                <img src="images/arrow.png" alt="arrow" style="width:15px;" />
+                                <span>
+                                    <b>Do i have to buy this module for each version ?</b>
+                                </span>
+                                <br>
+                                <ul style="color: black; font-size: 16px;">
+                                    <li>
+                                        <span class="pl-4">Yes, you have to buy this module for each version.</b></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- tab 4 -->
+                    <!-- tab 5 -->
+                    <div id="Support" class="tab-pane fade container">
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="shadow-lg rounded bg-white" style="padding:20px; margin-bottom:0px">
+                                    <h4 class="mb-0"><a href="mailto:odoo@devintellecs.com"
+                                            style="text-decoration:none; color:#212121; font-size:18px; font-weight:600; letter-spacing:1px"><span
+                                                class="fa fa-envelope"
+                                                style="color:#26a3ae; padding-right:10px; font-size:20px"></span>
+                                            Please mail us for support on <b
+                                                style="color:#26a3ae">odoo@devintellecs.com</b></a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab 5 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- free support  -->
+        <section id="dev_support" class="mt-4">
+            <div class="text-center">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">SUPPORT</p>
+                <img src="images/seprator.png" alt="seprator" width=150 />
+            </div>
+            <div class="product-card shadow-lg p-2" style="border-radius: 14px;">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-12 text-center">
+                        <img src="images/tube.png" alt="support" height=100>
+                    </div>
+                    <div class="col-lg-10 col-sm-12 pt-3" style="font-size: 20px; font-weight: 400;">
+                        DevIntelle will provide FREE 90 days support for any doubt, queries, and bug fixing (excluding
+                        data recovery) or any
+                        type of issues related to this app. This is applicable from the date of purchase.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- similar apps  -->
+        <section id="dev_similarapps" class="mt-5">
+            <div class="text-center mt-4">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">YOU MAY ALSO LIKE</p>
+                <img src="images/seprator.png" alt="seprator" width=230 />
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_history/" target="_blank">
+                        <img src="banners/dev_purchase_history.png" alt="Product Purchase History"
+                            width="320" style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_order_status/" target="_blank">
+                        <img src="banners/dev_purchase_order_status.png" alt="Purchase Order Status" width="320"
+                            style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_odoo_purchase_report_bundle/" target="_blank">
+                        <img src="banners/dev_odoo_purchase_report_bundle.png" alt="All in One Purchase Reports" width="320"
+                            style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_pricelist/" target="_blank">
+                        <img src="banners/dev_purchase_pricelist.png" alt="Purchase Pricelist"
+                            width="320" style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_shipment_by_date/" target="_blank">
+                        <img src="banners/dev_purchase_shipment_by_date.png" alt="Purchase Shipment By Dates" width="320"
+                            style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_revision/" target="_blank">
+                        <img src="banners/dev_purchase_revision.png" alt="Purchase Revision Number" width="320"
+                            style="border: solid 1px #12757e;">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demandend apps  -->
+        <section id="dev_demandedapps" class="mt-5">
+            <div class="text-center mt-4">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">MOST DEMANDED APPS</p>
+                <img src="images/seprator.png" alt="seprator" width=230 />
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_picking_cancel/" target="_blank">
+                        <img src="banners/dev_picking_cancel.gif" alt="All in one Cancel" height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_loan_management/" target="_blank">
+                        <img src="banners/dev_loan_management.gif" alt="Customer / Supplier Loan Management"
+                            height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_customer_credit_limit/" target="_blank">
+                        <img src="banners/dev_customer_credit_limit.gif" alt="Customer Credit Limit" height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_inventory_ageing_report/" target="_blank">
+                        <img src="banners/dev_inventory_ageing_report.gif" alt="Stock Inventory Aging Report PDF/Excel"
+                            height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_hr_loan/" target="_blank">
+                        <img src="banners/dev_hr_loan.gif" alt="Employee Loan Management" height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_export_excel/" target="_blank">
+                        <img src="banners/dev_export_excel.gif"
+                            alt="Dynamic / Global Export Excel Report For all Application-xls" height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_customer_account_statement/" target="_blank">
+                        <img src="banners/dev_customer_account_statement.gif" alt="Customer Statement & Aging"
+                            height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_purchase_down_payment/" target="_blank">
+                        <img src="banners/dev_purchase_down_payment.gif" alt="Purchase Advance Payment" height="180">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 text-center">
+                    <a href="https://apps.odoo.com/apps/modules/16.0/dev_invoice_multi_payment/" target="_blank">
+                        <img src="banners/dev_invoice_multi_payment.gif" alt="Multiple Invoice Payment" height="180">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- why us  -->
+        <section id="dev_whyus">
+            <div class="text-center mt-4">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">WHY US?</p>
+                <img src="images/seprator.png" alt="seprator" width=170 />
+            </div>
+            <div class="row mt-3 shadow-lg product-card p-3" style="border-radius: 14px;">
+                <div class="col-1"></div>
+                <div class="col-10 text-center" style="font-size: 20px; font-weight: 400;color: #364546;">
+                    DevIntelle Consulting Services Pvt Ltd is an Odoo service provider India/USA based consulting
+                    company with <b>12+ years of experience</b>. We provide a wide range of services, including
+                    implementation, customization, migration, support, and training. Devintellecs experienced team
+                    of Odoo can help you get the most out of your Odoo ERP system and achieve your business goals.
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </section>
+
+        <!-- service  -->
+        <section id="dev_service" class="mt-5">
+            <div class="text-center mt-4">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">DEVINTELLE ODOO SERVICES</p>
+                <img src="images/seprator.png" alt="seprator" width=170 />
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #0090e9; background-color:#d1edff; width:90%; margin:auto;">
+                        <span class="fa fa-cloud-upload" style="font-size:40px; color:#0090e9"></span> <br>
+                        <span> Odoo Implementation </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #6bcf00; background-color:#ecfcda; width:90%; margin:auto;">
+                        <span class="fa fa-gear" style="font-size:40px; color:#6bcf00"></span> <br>
+                        <span> Odoo Customization </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #e90065; background-color:#ffcde3; width:90%; margin:auto;">
+                        <span class="fa fa-link" style="font-size:40px; color:#e90065"></span> <br>
+                        <span> Odoo Intergration </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #c3c903; background-color:#feffdd; width:90%; margin:auto;">
+                        <span class="fa fa-rocket" style="font-size:40px; color:#c3c903"></span> <br>
+                        <span> Odoo Migration </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #e96100; background-color:#f9ddc9; width:90%; margin:auto;">
+                        <span class="fa fa-desktop" style="font-size:40px; color:#e96100"></span> <br>
+                        <span> Odoo Training </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <div class="shadow-lg rounded btn-lg btn-block p-4 mb-2"
+                        style="font-size:25px; font-weight:bold; color: #03b19f; background-color:#cafffa; width:90%; margin:auto;">
+                        <span class="fa fa-comments" style="font-size:40px; color:#03b19f"></span> <br>
+                        <span> Odoo Support </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+        <section id="dev_contact" class="mt-5">
+            <div class="text-center mt-4">
+                <p class="mb-0" style="color: #26a3ae; font-weight: 600; font-size: 25px;">CONNECT US</p>
+                <img src="images/seprator.png" alt="seprator" width=170 />
+            </div>
+            <div class="row mt-2">
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <a class="shadow-lg rounded btn-lg mb-2 btn-block text-center"
+                        style="font-size:25px; text-decoration: none; font-weight:bold; color: white; background-color:#4FCE5D; width:80%; margin:auto;"
+                        href="https://web.whatsapp.com/send?phone=+918780543446&text=Hi" target="_blank"
+                        target="_blank">
+                        <span class="fa fa-brands fa-whatsapp mr-2" style="font-size:28px; color:#fff"></span>
+                        <span>WhatsApp<br><span style="font-size: 20px;">+91 87805 43446</span></span>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <a class="shadow-lg rounded btn-lg mb-2 btn-block text-center"
+                        style="font-size:25px; text-decoration: none; font-weight:bold; color: white; background-color:#4ca9e3; width:80%; margin:auto;"
+                        href="skype:devintelle?chat" target="_blank">
+                        <span class="fa fa-brands fa-skype mr-2" style="font-size:28px; color:#fff"></span>
+                        <span>Skype <br><span style="font-size: 20px;">@devintelle</span></span>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <a class="shadow-lg rounded btn-lg mb-2 btn-block text-center"
+                        style="font-size:25px; text-decoration: none; font-weight:bold; color: white; background-color:#ce493b; width:80%; margin:auto;"
+                        href="mailto:odoo@devintellecs.com" target="_blank">
+                        <span class="fa fa-solid fa-envelope mr-2" style="font-size:28px; color:#fff"></span>
+                        <span>Mail <br> <span style="font-size: 20px;">odoo@devintellecs.com</span> </span>
+
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <img src="images/seprator.png" alt="seprator" width=170 />
+            </div>
+            <div class="row mt-4 mb-4">
+                <div class="col-12 text-center">
+                    <img src="images/logo.png" alt="Devintelle Consulting Services" height="100">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col text-center mt-3">
+                    <a class="mx-2" href="https://www.instagram.com/devintelle_odoo/" target="_blank"><img
+                            src="images/insta.png" alt="instagram" height="45"></a>
+                    <a class="mx-2" href="https://www.facebook.com/Odoodevintellecs/" target="_blank"><img
+                            src="images/fb.png" alt="facebook" height="45"></a>
+                    <a class="mx-2" href="https://www.youtube.com/channel/UCrmu-T0c8rhMXGuB44bH7gA" target="_blank"><img
+                            src="images/yt.png" alt="youtube" height="45"></a>
+                    <a class="mx-2" href="https://twitter.com/devintelle" target="_blank"><img src="images/twit.png"
+                            alt="twitter" height="45"></a>
+                    <a class="mx-2" href="https://www.linkedin.com/in/devintelle-odoo-service-provide-34785b144/"
+                        target="_blank"><img src="images/in.png" alt="linkedin" height="45"></a>
+                    <a class="mx-2" href="https://in.pinterest.com/devintellecs_odoo_expert/" target="_blank"><img
+                            src="images/pin.png" alt="pinterest" height="45"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
